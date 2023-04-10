@@ -33,6 +33,7 @@
 .hero{
     display: inline-block;
     margin-left: 100px;
+    margin-bottom: 100px;
 }
 
 .hero-secondary{
@@ -65,4 +66,70 @@
 .beamsaber{
     height: 295px;
     width: auto;
+}
+
+button{
+    background-color: #3882f6;
+    font-family: plavsky;
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+.timelines-header{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.UC-image{
+    height: 150px;
+    width: auto;
+}
+
+.ac-image{
+    height: 150px;
+    width: auto;
+}
+
+.ad-image{
+    height: 150px;
+    width: auto;
+}
+
+.stella-image{
+    height: 150px;
+    width: auto;
+}
+
+.timelines{
+    display: flex;
+    margin: 80px;
+    gap: 50px;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.timeline-UC{
+    display: inline-block;
+    text-align: center;
+}
+
+.timeline-ac{
+    display: inline-block;
+    text-align: center;
+}
+
+.timeline-ad{
+    display:inline-block;
+    text-align: center;
+}
+
+.timeline-stella{
+    display: inline-block;
+    text-align: center;
 }
