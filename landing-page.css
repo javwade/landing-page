@@ -107,11 +107,20 @@ button{
 }
 
 .timelines{
+    height: 300px;
     display: flex;
-    margin: 80px;
+    margin: 20px;
     gap: 50px;
     justify-content: center;
+    align-items: center;
     font-family: sans-serif;
+}
+
+.timelines-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
 }
 
 .timeline-UC{
@@ -132,4 +141,82 @@ button{
 .timeline-stella{
     display: inline-block;
     text-align: center;
+}
+
+.quote-section{
+    height: 250px;
+    background: #e5e7eb;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.rau{
+    text-align: right;
+    margin-right: 100px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.calltoaction{
+    height: 275px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue{
+    background-color: #3882f6;
+    height: 140px;
+    width: 10000px;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.call{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #f9faf8;
+    margin-left: 70px;
+    display: inline-block;
+}
+
+.action{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #e5e7eb;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+
+.signup{
+    float: right;
+    margin-top: -55px;
+    margin-right: 180px;
+    color: #f9faf8;
+    border: 2px solid #e5e7eb;
+    font-family: sans-serif;
+}
+
+.copyright{
+    height: 100px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
